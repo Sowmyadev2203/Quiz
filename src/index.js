@@ -23,13 +23,15 @@ const theme = extendTheme({ colors, fonts });
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ChakraProvider>
+
+    <App/>
+    {/* <ChakraProvider>
       <ThemeProvider theme={theme}>
         <CSSReset />
         <Router>
           <App />
         </Router>
       </ThemeProvider>
-    </ChakraProvider>
+    </ChakraProvider> */}
   </React.StrictMode>
 );
