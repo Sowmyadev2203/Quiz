@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <QuizState>
+      {/* <QuizState>
         <div className="App">
           <NavBar />
           <Routes>
@@ -22,7 +22,8 @@ function App() {
             <Route exact path="/review" element={<ReviewAnswer />} />
           </Routes>
         </div>
-      </QuizState>
+      </QuizState> */}
+      <h1>hello</h1>
     </>
   );
 }
